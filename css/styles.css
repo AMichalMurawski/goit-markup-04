@@ -1,0 +1,369 @@
+:root {
+	--background-all: #ffffff;
+	--background-browser: #e5e5e5;
+	--background-dark: #2f303a;
+	--background-light: #f5f4fa;
+	--color-all: #212121;
+	--color-contact-transparent: rgba(255, 255, 255, 0.6);
+	--color-logo-web: #2196f3;
+	--color-select: #2196f3;
+	--color-text-black: #000000;
+	--color-text-grey: #757575;
+	--color-text-white: #ffffff;
+	--color-border-header: #ececec;
+	--color-border-projects: #eeeeee;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--color-all);
+	background-color: var(--background-browser);
+}
+
+.wrapper {
+	width: 1600px;
+	margin: 0 auto;
+	background-color: var(--background-all);
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 1px solid var(--color-border-header);
+}
+
+.container-header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 27px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-header-contact {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.container-footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.container-footer-contact {
+	display: flex;
+	flex-direction: column;
+	height: 81px;
+	justify-content: space-between;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.menu {
+	width: 254px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 92px;
+	margin-right: 371px;
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.logo-header {
+	color: var(--color-text-black);
+}
+
+.logo-footer {
+	color: var(--color-text-white);
+	display: block;
+	margin-bottom: 20px;
+}
+
+.logo-color-web {
+	color: var(--color-logo-web);
+}
+
+.list-none {
+	list-style-type: none;
+}
+
+.menu-item {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+
+.menu-item:visited {
+	color: inherit;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+	color: var(--color-select);
+}
+
+.contact-header {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: 0.02em;
+	color: var(--color-text-grey);
+}
+
+.container-footer-contact span {
+	margin: 0;
+}
+
+.contact-footer {
+	font-size: 14px;
+	line-height: 1.71;
+	font-style: normal;
+	letter-spacing: 0.03em;
+	color: var(--color-contact-transparent);
+}
+
+.contact-footer.contact-street {
+	color: var(--color-text-white);
+}
+
+.contact-link {
+	text-decoration: none;
+}
+
+.contact-link:visited {
+	color: inherit;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+	color: var(--color-select);
+}
+
+.dark-background {
+	background-color: var(--background-dark);
+}
+
+.service {
+	padding: 106px;
+	text-align: center;
+}
+
+.service-text {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color-text-white);
+	margin-bottom: 30px;
+}
+
+.service-order {
+	width: 200px;
+	height: 50px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--color-text-white);
+	background-color: var(--color-select);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.information {
+	padding-bottom: 0;
+}
+
+.information-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+	padding: 0 15px;
+}
+
+.information-list-item {
+	flex-basis: calc((100%-90px) / 5);
+}
+
+.information-list-header {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.information-list-paragraph {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--color-text-grey);
+}
+
+.working {
+	padding: 0 15px;
+}
+
+.working-header,
+.employee-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 50px;
+}
+
+.working-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 0;
+}
+
+.working-list-item {
+	flex-basis: calc((100%-60px) / 4);
+}
+
+.employee {
+	padding: 0 15px;
+}
+
+.employee-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 0;
+}
+
+.employee-list-item {
+	flex-basis: calc((100%-90px) / 5);
+	background: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	padding-bottom: 30px;
+}
+
+.employee-list-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1875;
+	letter-spacing: 0.03em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.employee-list-position {
+	font-size: 16px;
+	line-height: 1.1875;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--color-text-grey);
+}
+
+.light-background {
+	background-color: var(--background-light);
+}
+
+.projects {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.projects-filter-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 0 288px 0 280px;
+	margin-bottom: 50px;
+}
+
+.projects-filter-list-item {
+	flex-basis: calc((100%-32px) / 6);
+}
+
+.projects-filter-button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background-color: var(--background-light);
+	padding: 6px 22px;
+}
+
+.projects-filter-button:visited {
+	color: inherit;
+	background-color: inherit;
+}
+
+.projects-filter-button:hover,
+.projects-filter-button:focus {
+	color: var(--color-text-white);
+	background-color: var(--color-select);
+}
+
+.projects-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	padding: 0;
+}
+
+.projects-list-item {
+	flex-basis: calc((100%-60px) / 4);
+	padding-bottom: 20px;
+	background: var(--background-all);
+	border: 1px solid var(--color-border-projects);
+}
+
+.projects-list-item-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	padding: 0 24px;
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+
+.projects-list-item-type {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--color-text-grey);
+	padding: 0 24px;
+}
