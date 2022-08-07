@@ -347,7 +347,7 @@ header {
 	flex-basis: calc((100%-60px) / 4);
 	padding-bottom: 20px;
 	background: var(--background-all);
-	border: 1px solid var(--color-border-projects);
+	border-bottom: 1px solid var(--color-border-projects);
 }
 
 .projects-list-item-name {
